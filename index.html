@@ -6,19 +6,27 @@
     <title>Dudley Dev Dot Com</title>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <header>
         <nav>
-            <button onclick="location.href='index.html';">Home</button>
-            <button onclick="location.href='blog.html';">Blog</button>
+            <button onclick="location.href='index.html';">home</button>
+            <button onclick="location.href='blog.html';">blog</button>
+            <!-- Dark Mode Toggle -->
+            <label for="dark-mode-toggle" class="dark-mode-label" onclick="toggleDarkMode()">
+                <i id="dark-mode-icon" class="fas fa-moon"></i>
+            </label>
         </nav>
     </header>
     <main>
-        <h1>Dudley Dev Dot Com</h1>
+        <h1>Dudley Dev Dot Com Hey</h1>
         <p>Hi, I'm Nathan Dudley.</p>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
+
 

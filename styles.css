@@ -1,23 +1,28 @@
 header {
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #e1e5eb;
-    padding: 50px 20px 50px 20px;
-    text-align: center;    
+    background-color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition for background color and text color */  
 }
 
 nav button {
     background: none;
     border: none;
-    padding: 8px 25px;
+    padding: 8px 15px;
     margin: 0 10px;
     font-size: 32px;
     color: #333;
     cursor: pointer;
     font-family: 'Anton', sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition for background color and text color */  
 }
 
 nav button:hover {
     color: #007bff;
+}
+
+body {
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition for background color and text color */
 }
 
 main {
@@ -26,3 +31,19 @@ main {
     text-align: left;
     font-family: 'Oxygen', sans-serif;
 }
+
+/* Dark mode */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode header {
+    background-color: #333;
+}
+
+.dark-mode nav button {
+    color: #fff;
+}
+
+
